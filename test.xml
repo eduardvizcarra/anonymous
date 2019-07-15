@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon Test" verbose="1">
+    <test name="Amazon Test" parallel="methods">
+        <classes>
+            <class name="AmazonTest" />
+        </classes>
+    </test>
+
+</suite>
